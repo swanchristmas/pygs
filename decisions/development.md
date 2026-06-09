@@ -1,17 +1,17 @@
 # Development workflow
 
-This file defines how AI-assisted development is constrained in PyGS.
+This file records durable workflow decisions. Executable rules for local coding agents remain in [AGENTS.md](../AGENTS.md).
 
-## Contract
+## Decision
 
-Record stable rules for separating reasoning, implementation, validation, and review.
-how changes are planned, implemented, reviewed, and attributed.
+Separate reasoning, implementation, validation, and final review.
 
-Suggested content:
+## Roles
 
-* ChatGPT for theory, derivation checks, API design, and architecture review;
-* local agents for bounded implementation, tests, refactors, and command execution;
-* human maintainer for scientific correctness, public API decisions, dependency approval, and final review;
-* validation commands required before completion;
-* attribution policy for AI assistance.
+- ChatGPT: theory checks, derivation review, API design, architecture review.
+- Local coding agents: bounded implementation, tests, refactors, command execution.
+- Maintainer: scientific correctness, dependency approval, public API decisions, final review.
 
+## Change control
+
+Workflow-level changes should update this file first, then update [AGENTS.md](../AGENTS.md) only when agent behavior must change.

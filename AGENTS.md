@@ -40,13 +40,7 @@ Markdown files should stay under 100 lines. If a file grows beyond that, apply:
 2. refactor — split durable subtopics into linked files;
 3. compress — shorten language without weakening the contract.
 
-## Formatting policy
-
-Ruff is the only Python formatter.
-
-- Do not manually reflow Python code only for visual alignment.
-- Do not hard-wrap anything beyond code, such as Markdown, comments, git commit message, and docstrings, merely to satisfy a visual line length.
-- For prose, prefer semantic line breaks: one sentence or one logical clause per line when helpful.
+## [Formatting policy](decisions/format-style.md)
 
 ## Testing policy
 
