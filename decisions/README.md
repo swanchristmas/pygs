@@ -25,4 +25,4 @@ Use this directory to constrain future diffs, including:
 * [development.md](./development.md): AI-assisted development workflow and review boundary.
 * [code-style.md](./code-style.md): Python style choices and formatting conventions.
 * [documentation-style.md](documentation-style.md): Documentation style choices including markdown conventions.
-* [format-style.md](./format-style.md): formatting style of prose, code, comments, and etc.
+* [format-style.md](./format-style.md): Formatting style for prose, code, comments, etc.
